@@ -1,0 +1,72 @@
+/* ------------------------------------------------------ */
+/* FONTS */
+/* ------------------------------------------------------ */
+@font-face {
+  font-family: 'FightingSpirit';
+  src: url('../fonts/fightingSpirit/FightingSpirit.eot');
+  src: url('../fonts/fightingSpirit/FightingSpirit.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fightingSpirit/FightingSpirit.woff2') format('woff2'),
+      url('../fonts/fightingSpirit/FightingSpirit.woff') format('woff'),
+      url('../fonts/fightingSpirit/FightingSpirit.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Amita';
+  src: url('../fonts/amita/Amita-Regular.eot');
+  src: url('../fonts/amita/Amita-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/amita/Amita-Regular.woff2') format('woff2'),
+      url('../fonts/amita/Amita-Regular.woff') format('woff'),
+      url('../fonts/amita/Amita-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/bebas_neue/BebasNeue-Regular.eot');
+  src: url('../fonts/bebas_neue/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/bebas_neue/BebasNeue-Regular.woff2') format('woff2'),
+      url('../fonts/bebas_neue/BebasNeue-Regular.woff') format('woff'),
+      url('../fonts/bebas_neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yanone';
+    src: url('../fonts/yanone/Yanone.eot');
+    src: url('../fonts/yanone/Yanone.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yanone/Yanone.woff2') format('woff2'),
+        url('../fonts/yanone/Yanone.woff') format('woff'),
+        url('../fonts/yanone/Yanone.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hjirnotes';
+  src: url('../fonts/hjirnotes/Hijrnotes.ttf') format('truetype');
+}
+
+.bebas {
+  font-family: 'BebasNeue';
+}
+
+.yanone {
+  font-family: 'Yanone';
+}
+
+/* ------ UTILISÉES DANS LE HEADER, NE PAS MODIFIER LE POSITIONNEMENT ------ */
+
+.fighting {
+  font-family: 'FightingSpirit';
+  align-self: flex-start;
+}
+
+.amita {
+  font-family: 'Amita';
+  font-size: 32px;
+  position: absolute;
+  left: 250px;
+  top: 15px;
+}
+
+.hjirnotes {
+  font-family: 'Hjirnotes';
+  align-self: flex-end;
+  margin-top: -35px;
+}

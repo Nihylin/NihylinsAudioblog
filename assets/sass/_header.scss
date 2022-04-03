@@ -1,0 +1,31 @@
+
+/* ------------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------------ */
+
+header {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.arrow {
+  width: 35px;
+  position: fixed;
+  top: 70px;
+  left: 50px;
+  fill: white;
+  z-index: 1;  
+}
+
+.banniere {
+  width: 420px;
+  position: relative;
+  font-size: 35px;
+  overflow: hidden;
+}
+
+.banniere h1 {
+  font-weight: 400;
+}

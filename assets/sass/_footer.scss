@@ -1,0 +1,134 @@
+/* ------------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------------ */
+
+footer {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logos i {
+  transition: color 0.25s;
+}
+
+.logoinsta i{
+  transition: opacity 0.25s linear;
+}
+
+.logos a {
+  width: 35px;
+  height: 35px;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+}
+
+.logos img {
+  width: 30px;
+  height: 35px;
+}
+
+.aquawhite{
+  opacity: 1;
+  transition: opacity 0.25s linear;
+}
+
+.logoaqua:hover .aquawhite {
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+
+.aquacolor {
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+
+.logoaqua:hover .aquacolor {
+  opacity: 1;
+  transition: opacity 0.25s linear;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #00aced;
+}
+
+.instawhite{
+  color: white;
+  opacity: 1;
+  transition: opacity 0.25s linear;
+}
+
+.instacolor{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+
+.logoinsta:hover .instawhite {
+  opacity:0;
+  transition: opacity 0.25s linear;
+}
+
+.logoinsta:hover .instacolor {
+  opacity:1;
+  transition: opacity 0.25s linear;
+}
+
+.liens {
+  justify-content: center;
+  margin-top: 25px;
+  font-family: helvetica;
+}
+
+.liens p {
+  margin-right: 2px;
+  margin-left: 2px;
+  justify-content: center;
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.25s;
+}
+
+.liens p:hover {
+  color: #444;
+}
+
+.liens a {
+  text-decoration: none;
+}
+
+.logonihy {
+  transition: color 0.25s;
+  font-family: 'FightingSpirit';
+  position: relative;
+}
+
+.logonihy p {
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top:-2px;
+}
+
+.logonihy:hover {
+  color: #e03925;
+}

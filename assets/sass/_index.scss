@@ -1,0 +1,99 @@
+/* ------------------------------------------------------ */
+/* INDEX */
+/* ------------------------------------------------------ */
+.index {
+  height: 100vh;
+}
+
+.duo {
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  position: relative;
+}
+
+.duo img {
+  display: block;
+  width: 550px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.duo img:hover {
+  filter:grayscale(0%);
+}
+
+.duo a {
+  position: absolute;
+  display: table;
+  transition: all 0.25s ease-out;
+}
+
+.duo a:hover {
+  transform: scale(1.05);
+}
+
+.duo p{
+  font-size: 40px;
+}
+
+.nihy {
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 97% 0, 0 97%);
+}
+
+.aqua {
+  bottom: 0;
+  right: 0;
+  filter:brightness(190%);
+  clip-path: polygon(100% 100%, 100% 3%, 3% 100%);
+}
+
+.aqua img:hover {
+  filter:brightness(0%);
+  filter:grayscale(0%);
+}
+
+/* -- À OPTIMISER --*/
+
+/* - BLOG - */
+
+.blog:hover .tooltipblog {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-20px, -20px);
+  transition-delay: 0.3s;
+}
+
+.tooltipblog {
+  opacity:0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 10px);
+  font-family: 'Yanone';
+  top: 0;
+  left: -20px;
+  transition: all 0.25s ease-out;
+}
+
+/* -PLAYLIST -*/
+
+.playlist:hover .tooltipplaylist {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(20px, 20px);
+  transition-delay: 0.3s;
+}
+
+.tooltipplaylist {
+  opacity:0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 10px);
+  font-family: 'Yanone';
+  bottom:0;
+  right: -20px;
+  transition: all 0.25s ease-out;
+}

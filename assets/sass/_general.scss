@@ -1,0 +1,66 @@
+/* ------------------------------------------------------ */
+/* GENERAL */
+/* ------------------------------------------------------ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080a0a;
+  color: #f3f3f3;
+  background-image: url('../img/PNG/background.png');
+  justify-content: center;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: #e03925;
+}
+
+.yellow{
+  color: #F8CC19;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nodisplay {
+  display:none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.xcenter{
+  justify-content: center;
+}
+
+.ycenter{
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
